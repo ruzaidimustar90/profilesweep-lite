@@ -2,7 +2,7 @@
 
 **Reset shared Windows PCs in one click.** Safely back up and remove old local user profiles from loaner laptops, meeting-room PCs, labs and kiosks.
 
-![ProfileSweep Lite](docs/screenshot.png)
+![ProfileSweep - reset a shared PC in one click](docs/screenshot.png)
 
 ---
 
@@ -24,6 +24,10 @@ Shared Windows PCs collect dozens of old user profiles. Each one can be gigabyte
 
 Runs 100% offline. No telemetry, no account, nothing leaves the machine.
 
+![How it works: back up, reset profile, clean up, report](docs/how-it-works.png)
+
+![Audit report generated after every run](docs/audit-report.png)
+
 ## Requirements
 
 - Windows 10 or 11
@@ -42,6 +46,8 @@ Optional: edit `ProfileSweep.settings.json` (Notepad) to set `TargetAccounts` (e
 > ⚠️ **Test on a non-production PC first.** ProfileSweep deletes user data. The built-in backup is a safety net, not a replacement for your own backups.
 
 ## Lite vs Starter vs Pro
+
+![Choose your edition](docs/editions.png)
 
 | Feature | Lite (free) | Starter | Pro |
 |---|:---:|:---:|:---:|
